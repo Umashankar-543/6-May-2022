@@ -1,0 +1,14 @@
+Prepare Employee dictionary with the following fields (empno,empname,empdesig,doj,Salary) and display the data with empno.
+--------------------------------------------------------------------------------------------------------------------------
+Emp={101:['Suresh','sales manager','25-04-2022',30000],102:['Divya','Assistent manager','10-03-2022',25000],103:['Ramesh','Data analyst','20-12-2021',10000]}
+x=int(input('enter empno:'))
+print('empname:',Emp[x][0])
+print('empdesig:',Emp[x][1])
+print('doj:',Emp[x][2])
+print('salaray:',Emp[x][3])
+output:
+enter empno:102
+empname: Divya
+empdesig: Assistent manager
+doj: 10-03-2022
+salaray: 25000
