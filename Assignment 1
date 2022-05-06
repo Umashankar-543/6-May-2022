@@ -1,0 +1,14 @@
+Prepare student dictionary with the following fields (sno,sname,gender,group,result) and display the data with sno key. 
+-----------------------------------------------------------------------------------------------------------------------
+Stud={1:['Suresh','male','mpcs',9],2:['Divya','female','mpc',8],3:['Ramesh','male','mccs',10]}
+x=int(input('enter sno:'))
+print('sname:',Stud[x][0])
+print('gender:',Stud[x][1])
+print('group:',Stud[x][2])
+print('result:',Stud[x][3])
+output:
+enter sno:3
+sname: Ramesh
+gender: male
+group: mccs
+result: 10
